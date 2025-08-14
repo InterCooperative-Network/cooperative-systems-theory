@@ -1,0 +1,24 @@
+site_name: Cooperative Systems Theory
+repo_url: https://github.com/InterCooperative-Network/cooperative-systems-theory
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+plugins:
+  - search
+  - mkdocs-jupyter
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - Home: index.md
+  - CST:
+    - Theory: cst/theory.md
+    - Math: cst/math.md
+    - Simulation: cst/simulation.md
+    - Figures: cst/figures.md

@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.env
+.venv
+.uv/
+dist/
+build/
+site/
+.ipynb_checkpoints/
+data/outputs/*
+!.gitkeep
+figures/*
+!.gitkeep
+
+# build artifacts
+*.egg-info/
+src/*.egg-info/
+.pytest_cache/

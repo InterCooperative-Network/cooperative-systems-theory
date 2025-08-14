@@ -1,0 +1,21 @@
+model:
+  a: 0.3
+  b: 0.25
+  delta: 0.08
+  alpha: 0.25
+  beta: 0.03
+  g: 0.0
+  d: 0.05
+  s_pi: 0.0
+  p: 8.0
+  C0: 1.0
+  chi: 0.4
+  N_bar: 1.0e8
+  lam: 0.02
+  eta: 5.0
+  tau: 0.08
+  E_cap: 0.1
+  theta: 0.8
+  kappa: 10.0
+init: { Q: 0.75, N: 1.0e7, K: 5.0e8 }
+sim: { T: 300 }
